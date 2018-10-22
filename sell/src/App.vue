@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <div class="tou">
+     <div class="tou border-1px">
        <v-header :seller="seller"></v-header>
      </div>
      <div class="tab">
@@ -14,7 +14,7 @@
          <router-link to="/seller">卖家</router-link>
        </div>
      </div>
-    <router-view/>
+    <router-view :seller="seller"></router-view>
 
   </div>
 </template>
@@ -30,23 +30,23 @@ export default {
   },
   components:{
    'v-header': header
-
   },
   created(){
     this.$axios.get('/api/seller').then((data)=>{
       console.log(data.data.data);
       this.seller = data.data.data
-
     })
   }
 }
 </script>
 
 <style lang="stylus">
+  @import "./common/stylus/background.styl"
   .tab
     display flex
     width 100%
     height 40px
+    border-1px(rgba(7,17,27,0.1))
     .tab-item
       line-height 40px
       text-align center
@@ -61,7 +61,7 @@ export default {
           color rgb(240,20,20)
           font-size 14px
           line-height 14px
-  .header
+  .tou
     width 100%
     height 134px
 

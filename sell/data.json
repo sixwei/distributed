@@ -1,18 +1,18 @@
 {
   "seller": {
-    "name": "家粥肉饼",
-    "description": "蜂鸟专送",
-    "deliveryTime": 20,
-    "score": 4.9,
-    "serviceScore": 4.8,
-    "foodScore": 4.3,
-    "rankRate": 93.2,
-    "minPrice": 20,
-    "deliveryPrice": 3,
-    "ratingCount": 24,
-    "sellCount": 90,
-    "bulletin": "顾客您好！本店承接大份盒饭，请同店面联系；食品安全温馨提示：请您在接餐后30分钟内食用完毕！",
-    "supports": [
+      "name": "家粥肉饼",
+      "description": "蜂鸟专送",
+      "deliveryTime": 20,
+      "score": 4.9,
+      "serviceScore": 4.8,
+      "foodScore": 4.3,
+      "rankRate": 93.2,
+      "minPrice": 20,
+      "deliveryPrice": 3,
+      "ratingCount": 24,
+      "sellCount": 90,
+      "bulletin": "顾客您好！本店承接大份盒饭，请同店面联系；食品安全温馨提示：请您在接餐后30分钟内食用完毕！",
+      "supports": [
       {
         "type": 0,
         "description": "在线支付满28减5"
